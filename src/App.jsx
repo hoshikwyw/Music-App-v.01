@@ -1,9 +1,10 @@
 import React from 'react'
+import Path from './router/Path'
 
 const App = () => {
   return (
     <div>
-      app
+      <Path />
     </div>
   )
 }

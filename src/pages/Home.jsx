@@ -1,11 +1,12 @@
-import React from 'react'
+import React from "react";
+import Landing from "../components/home-components/Landing";
 
 const Home = () => {
   return (
-    <div>
-      home
+    <div className=" w-full">
+      <Landing />
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
