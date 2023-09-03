@@ -5,6 +5,7 @@ import Home from "../pages/Home"
 const Path = () => {
   return (
     <div>
+      
       <BrowserRouter>
       <Routes>
         <Route path='/' element={<Home />} />
