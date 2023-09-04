@@ -4,7 +4,7 @@ import logo from "../../assets/musicLogo.png";
 
 const TopNav = () => {
   return (
-    <div className=" backdrop-blur-sm bg-white/40 w-[500px] px-3 rounded-3xl py-2 flex items-center justify-between">
+    <div className=" flex items-center justify-between">
       <div className=" flex items-center gap-2">
         <button>
           <img src={logo} alt="" className=" w-6 brightness-75" />
