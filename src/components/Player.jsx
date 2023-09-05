@@ -16,7 +16,7 @@ const Player = () => {
     setPlay(!play);
   };
   return (
-    <div className=" backdrop-blur-sm bg-white/40 px-3 rounded-3xl py-1 flex items-center justify-between">
+    <div className=" backdrop-blur-sm bg-white/40 px-3 md:rounded-3xl py-1 flex items-center justify-between">
       <div className=" flex items-center bg-black/20 px-5 py-1 rounded-3xl justify-between w-[80%]">
         <div className=" flex items-center">
           <img src={weeknd} alt="" className=" w-10 h-10 rounded-full" />

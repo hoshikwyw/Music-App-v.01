@@ -7,11 +7,11 @@ const Landing = () => {
   return (
     <div className=" w-[99%]">
       <Recommend />
-      <div className=" flex gap-5">
-        <div className=" w-[60%]">
+      <div className=" flex gap-5 flex-col md:flex-row">
+        <div className=" md:w-[50%] w-full">
           <Artists />
         </div>
-        <div className=" w-[40%] h-48">
+        <div className=" md:w-[50%] w-full md:h-48">
           <Playing />
         </div>
       </div>
